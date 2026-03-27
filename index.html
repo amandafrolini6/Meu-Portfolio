@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsividade (faz o site funcionar bem no celular) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Portfólio</title>  <!-- Título --> 
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+
+    <!-- Navbar (menu no topo do site) -->
+    <header>
+        <nav class="navbar">
+            <h1>Portfolio</h1>
+            
+            <!-- Menu de navegação -->
+            <ul class="menu">
+                <!-- Cada link leva para uma section pelo ID -->
+                <li><a href="#sobre">About</a></li>
+                <li><a href="#projetos">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contatos">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cabeçalho principal (apresentação) -->
+    <section class="hero"> <!-- Nova section para separar da navbar -->
+        <h1>Olá, eu sou a Amanda Frolini</h1> 
+        <p>Estudante de Desenvolvimento</p> <!-- h1 = titulo, o numero representa o tamanho da letra; ja p = a descrição -->
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre"> <!--Seção (página) do site-->
+        <h2>Sobre mim</h2>
+
+        <!-- <br> quebra linha -->
+        <p>
+            Aqui você encontra um pouco da minha jornada como desenvolvedora.<br>
+            Sou estudante do 5º semestre de Desenvolvimento de Software Multiplataforma na Fatec-Jahu e apaixonada por transformar ideias em soluções digitais funcionais e modernas.<br>
+            Amo programar, explorar tecnologias e buscar novas formas de evoluir. Atualmente me especializando em desenvolvimento web, boas práticas, UX e arquitetura de software.
+        </p>
+    </section> 
+
+    <!-- Seção de Projetos -->
+    <section id="projetos"> <!--Partes do conteúdo-->
+        <h2>Projetos</h2>
+
+        <!-- Cada projeto pode ser um "card" -->
+        <div class="projeto"> <!--Estilização (caixa genérica)-->
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto</p>
+        </div>
+    </section>
+
+    <!-- Seção de habilidades -->
+    <section id="skills">
+        <h2>Skills & Technologies</h2>
+
+        <!-- Você pode separar depois em listas -->
+        <p> Frontend: ---- / Backend ---- </p>
+    </section>
+
+    <!-- Seção de contato -->
+    <section id="contatos">
+        <h2>Fale Comigo!</h2>
+
+        <!-- Contato direto -->
+        <p>Email: amandafrolini6@gmail.com</p>
+    </section>
+
+    <section class="hero">
+  <div class="hero-text">
+    <h1>Hi, I'm <span>Amanda Frolini</span></h1>
+    <p>Front-End Developer | UX/UI Designer</p>
+
+    <!-- Social icons -->
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <button class="btn-primary">View My Work</button>
+  </div>
+
+  <!-- imagem grande do lado -->
+  <div class="hero-img">
+    <img src="img/AmandaFrolini2026-03-27 at 14.36.59.jpeg" alt="Amanda trabalhando">
+  </div>
+</section>
+
+    <!-- Importa o JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
